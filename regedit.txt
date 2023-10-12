@@ -1,0 +1,29 @@
+Wireless evidence in the registry.
+HKEY_LOCAL_MACHIME/SOFTWARE/Microsoft/Windows NT/CurrentVersion/NetworkList/Profiles
+
+RecentDocs key
+HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Explorer/RecentDocs/.docx
+
+TypedURLs key
+HKEY_CURRENT_USER/Software/Microsoft/Internet Explorer/TypedURLs
+
+IP Address
+HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/Tcpip/Parameters /Interfaces
+
+Startup location in the registry
+HKEY_LOCAL_MACHINE/SOFTWARE/MICROSOFT/WINDOWS/CurrentVersion/Run
+
+RunOnce Startup
+HKEY_LOCAL_MACHINE/SOFTWARE/MICROSOFT/WINDOWS/CurrentVersion /RunOnce
+
+Startup Services
+HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services
+
+Start Legacy Application
+HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/WIDI
+
+Start when a particular user logs on.
+HKEY_LOCAL_MACHINE/SOFTWARE/MICROSOFT/WINDOWS/CurrentVersion/Run
+
+USB Storage device
+HKEY_LOCAL_MACHINE/SYSTEM/ControlSet00X/Enum/USBSTOR

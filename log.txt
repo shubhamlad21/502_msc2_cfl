@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.logging.*;
+/**
+*
+* @author shubh
+*/
+public class prac_2 {
+ public static void main(String[] args) {
+ Logger l=Logger.getLogger(prac_2.class.getName());
+ FileHandler fh;
+ try {
+ fh=new FileHandler("D:/mylogfile.log",true);
+ l.addHandler(fh);
+ l.setLevel(Level.ALL);
+ SimpleFormatter sf=new SimpleFormatter();
+ fh.setFormatter(sf);
+ l.info("My first log");
+ }
+ catch(SecurityException e) {
+ e.printStackTrace();
+ }
+ catch(IOException e) {
+ e.printStackTrace();
+ }
+ l.info("This is CFL Prac 2");
+ }
+}
